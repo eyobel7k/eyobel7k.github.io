@@ -28,7 +28,7 @@ function Contact() {
         <Text style={styles.h1}>Contact Eyob</Text>
 
         <View>
-          <Text>Your Name*</Text>
+          <Text style={styles.font}>Your Name*</Text>
           <TextInput
             style={styles.input}
             onChangeText={e => setName(e)}
@@ -70,6 +70,7 @@ function Contact() {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
+    paddingTop:90
   },
   h1: {
     fontSize: 30,
@@ -84,8 +85,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     fontSize:20
   },
-  
- 
   input: {
     height: 50,
     borderColor: "green",

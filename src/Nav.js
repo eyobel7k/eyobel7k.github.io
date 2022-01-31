@@ -16,7 +16,7 @@ function Nav({ setPage }) {
         <Pressable onPress={() => setPage("Home")}>
           <View>
             <View>
-          <Text>Eyob</Text>
+          {/* <Text>Eyob</Text> */}
           </View>
           </View>
         </Pressable>
@@ -29,19 +29,19 @@ function Nav({ setPage }) {
         </Pressable>
 
         <Pressable onPress={() => setPage("About")}>
-          <Text name="About">About</Text>
+          <Text  style={styles.color}name="About">About</Text>
         </Pressable>
         <Pressable onPress={() => setPage("Experience")}>
-          <Text name="Experience">Experience</Text>
+          <Text style={styles.color} name="Experience">Experience</Text>
         </Pressable>
         <Pressable onPress={() => setPage("Education")}>
-          <Text name="Education">Education</Text>
+          <Text style={styles.color} name="Education">Education</Text>
         </Pressable>
         <Pressable onPress={() => setPage("Portfolio")}>
-          <Text name="Portfolio">Portfolio</Text>
+          <Text style={styles.color} name="Portfolio">Portfolio</Text>
         </Pressable>
         <Pressable onPress={() => setPage("Contact")}>
-          <Text name="Contact">Contact</Text>
+          <Text style={styles.color} name="Contact">Contact</Text>
         </Pressable>
       </View>
     </View>
@@ -59,8 +59,12 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-around",
-    marginTop: 35,
+    marginTop: 40,
     marginBottom: 35,
-    paddingTop:20
+    paddingTop:20,
   },
+  color:{
+    color:'#000',
+    fontSize:15
+  }
 });

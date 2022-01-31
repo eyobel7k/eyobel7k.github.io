@@ -17,7 +17,7 @@ export default function Home() {
       <Text style={styles.p}>
         A skilled and passionate Frontend web developer based in San Jose, CA{" "}
       </Text>
-      <Text style={styles.p}>Have a project?</Text>
+      <Text style={styles.project}>Have a project?</Text>
 
       <Image
         style={styles.eyoba}
@@ -33,11 +33,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: 40,
     flex: 1,
+  
   },
   title: {
     fontSize: 20,
     fontWeight: "bold",
-    // marginTop:20,
     alignSelf: "center",
   },
   green: {
@@ -48,13 +48,21 @@ const styles = StyleSheet.create({
     color: "green",
   },
   p: {
-    marginBottom: 20,
+    // marginBottom: 20,
     marginLeft: 10,
     alignSelf: "center",
+    fontSize:18,
+    marginTop:15
   },
   eyoba: {
     width: 300,
     height: 300,
     alignSelf: "center",
   },
+  project:{
+    fontSize:20,
+    textAlign:'center',
+    marginTop:10,
+    fontWeight:'bold'
+  }
 });
