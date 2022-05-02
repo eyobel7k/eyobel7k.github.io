@@ -1,0 +1,29 @@
+{
+  "files": {
+    "app.js": "/portfolio-react-native/static/js/app.9721096d.chunk.js",
+    "app.js.map": "/portfolio-react-native/static/js/app.9721096d.chunk.js.map",
+    "runtime~app.js": "/portfolio-react-native/static/js/runtime~app.77131ee0.js",
+    "runtime~app.js.map": "/portfolio-react-native/static/js/runtime~app.77131ee0.js.map",
+    "static/js/2.b0dbf546.chunk.js": "/portfolio-react-native/static/js/2.b0dbf546.chunk.js",
+    "static/js/2.b0dbf546.chunk.js.map": "/portfolio-react-native/static/js/2.b0dbf546.chunk.js.map",
+    "fonts/Limelight_400Regular.ttf": "/portfolio-react-native/./fonts/Limelight_400Regular.ttf",
+    "favicon-16.png": "/portfolio-react-native/favicon-16.png",
+    "favicon-32.png": "/portfolio-react-native/favicon-32.png",
+    "favicon.ico": "/portfolio-react-native/favicon.ico",
+    "index.html": "/portfolio-react-native/index.html",
+    "manifest.json": "/portfolio-react-native/manifest.json",
+    "serve.json": "/portfolio-react-native/serve.json",
+    "static/js/2.b0dbf546.chunk.js.LICENSE.txt": "/portfolio-react-native/static/js/2.b0dbf546.chunk.js.LICENSE.txt",
+    "static/media/Decidr.png": "/portfolio-react-native/static/media/Decidr.9b69a8f3.png",
+    "static/media/Ecard.png": "/portfolio-react-native/static/media/Ecard.599ce2e0.png",
+    "static/media/Haunted.png": "/portfolio-react-native/static/media/Haunted.42a37f47.png",
+    "static/media/Marvel.png": "/portfolio-react-native/static/media/Marvel.8af64d82.png",
+    "static/media/eyoba.png": "/portfolio-react-native/static/media/eyoba.533362d2.png",
+    "static/media/pexels-rahul-716398.jpg": "/portfolio-react-native/static/media/pexels-rahul-716398.7e0eb6da.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.77131ee0.js",
+    "static/js/2.b0dbf546.chunk.js",
+    "static/js/app.9721096d.chunk.js"
+  ]
+}
