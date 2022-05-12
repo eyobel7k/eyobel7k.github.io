@@ -1,11 +1,19 @@
 {
-  "background_color": "#ffffff",
+  "background_color": "#000000",
   "display": "standalone",
   "lang": "en",
-  "name": "portfolio-react-native",
-  "short_name": "portfolio-react-native",
+  "name": "eyob-legese-portfolio",
+  "short_name": "eyob-legese-portfolio",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.eyobel7k.eyoblegeseportfolio",
+      "id": "com.eyobel7k.eyoblegeseportfolio"
+    }
+  ],
+  "prefer_related_applications": true,
   "icons": [
     {
       "src": "/pwa/chrome-icon/chrome-icon-144.png",
